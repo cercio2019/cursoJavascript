@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=divice-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie-edge">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<title>Proyecto Registro de personal</title>
+</head>
+<body>
+<nav class="navbar bg-dark">
+    <div class="container text-white p-2">
+        <h3>Registro personal de la empresa</h3>
+    </div>
+</nav>
+<div class="container mt-5">
+    <form action="" id="registrar">
+        <div class="row">
+            <div class="col-6">
+                <label for="">Nombre</label>
+                <input type="text" class="form-control" id="nombre">
+            </div>
+            <div class="col-6">
+                <label for="">Apellido</label>
+                <input type="text" class="form-control" id="apellido">
+            </div>
+            <div class="col-6">
+                <label for="">Departamento</label>
+                    <select name="" id="departamento" class="form-control">
+                        <option value="">Seleccionar</option>
+                        <option value="Atencion al cliente">Atencion al cliente</option>
+                        <option value="Trabajadores de logistica">Trabajadores de logistica</option>
+                        <option value="Gerentes">Gerentes</option>
+                    </select>
+            </div>
+            <div class="col-6">
+                <label for="">Años de servicios</label>
+                <select name="" id="años" class="form-control">
+                        <option value="">Seleccionar</option>
+                        <option value="1 año">1 año</option>
+                        <option value="2 a 6 años">2 a 6 años</option>
+                        <option value="7 o mas años">7 o mas años</option>
+                </select>
+            </div>
+            <div class="col-12 text-center mt-4">
+                <input type="submit" value="registrar" class="btn btn-danger text-center">
+            </div>
+        </div>
+    </form>
+</div>
+
+<div class="container mt-5">
+    <div class="row">
+       <div class="col-12">
+           <table class="table text-center">
+                <thead class="bg-dark text-white">
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Departamento</th>
+                        <th>Años de Ser.</th>
+                    </tr>
+                </thead>
+                <tbody id="tabla">
+                </tbody>
+           </table>
+       </div>
+    </div>
+</div>
+
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="aplicacion/main.js"></script>
+</body>
+</html>    
