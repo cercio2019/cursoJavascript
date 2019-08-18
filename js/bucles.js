@@ -13,15 +13,6 @@ for (var i = 0; i <= 15; i++) {
 	console.log('numero '+i);
 }
 
-
-// imprimir un arreglo con forEach
-mujeres= ['osveyri', 'marce', 'mary', 'yoharlis', 'andrea','yineily'];
-
-mujeres.forEach(function(mujer, index) {
-	console.log(`${index} : ${mujer}`);
-});
-
-
 // imprimir una variable de objetos
 auto = {
 	marca : 'ford',
@@ -38,8 +29,7 @@ for (var i  in auto){
 datos= [
   {cedula : '24162106', nombre : 'cercio'},
   {cedula : '9014690', nombre : 'delcy'},
-  {cedula : '74657445', nombre : 'marcelis'},
-  {cedula : '45645645', nombre : 'osve'}
+  
 ];
 
 const nombres = datos.map(function (dates) {
